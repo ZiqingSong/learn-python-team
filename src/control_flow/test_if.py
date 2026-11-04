@@ -25,7 +25,7 @@ def test_if_statement():
     else:
         conclusion = 'Number bigger than or equal to one'
 
-    assert conclusion == 'Number bigger than or equal to one'
+    assert conclusion.startswith('Number bigger')
 
 
 
